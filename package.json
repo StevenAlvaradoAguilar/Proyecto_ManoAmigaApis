@@ -19,4 +19,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenAlvaradoAguilar/Proyecto_ManoAmigaApis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StevenAlvaradoAguilar/Proyecto_ManoAmigaApis/issues"
+  },
+  "homepage": "https://github.com/StevenAlvaradoAguilar/Proyecto_ManoAmigaApis#readme",
+  "description": ""
 }
