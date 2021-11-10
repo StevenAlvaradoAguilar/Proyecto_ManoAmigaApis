@@ -5,7 +5,7 @@ const getUsuario = async (req, res) => {
     try {
         let pool = await sql.connect(config);
         // En .query colocamos la consulta a utilizar en la base de datos
-        const response = await pool.query("SELECT * FROM dbo.usuario");
+        const response = await pool.query("SELECT * FROM dbo.RegisterUser");
         return res.status(200).send(response.recordsets[0]);
     }
     catch (e) {
