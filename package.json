@@ -15,7 +15,7 @@
     "express-validator": "^6.13.0",
     "method-override": "^3.0.0",
     "morgan": "^1.10.0",
-    "mssql": "^6.3.2",
+    "mssql": "^6.2.1",
     "websocket": "^1.0.34"
   },
   "devDependencies": {

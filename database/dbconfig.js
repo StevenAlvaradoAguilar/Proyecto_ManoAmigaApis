@@ -1,8 +1,6 @@
-const sql = require('mssql');//Se necesita paquete mssql
-
 const config = {
     user     :'ManoAmiga',
-    password :'Galaxy3300',
+    password :'Mano1234',
     server   :'127.0.0.1',
     database :'ManoAmiga',
     options:{
@@ -14,3 +12,4 @@ const config = {
 }  
 
 module.exports = config;
+

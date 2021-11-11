@@ -1,16 +1,18 @@
 const { Router } = require('express');
 const router = Router();
 
-const usuarios_controllers = require("../controllers/usuarios-controllers");
+const users_controllers = require("../controllers/users-controllers");
 
 // Rutas de usuarios
-router.get("/api/usuarios", usuarios_controllers.getUsuario);
+router.get('/api/Users', users_controllers.getUser);
 
-router.get("/api/usuario_Id", usuarios_controllers.getUsuario_x_id);
+router.get("/api/User_Id/:id", users_controllers.getUserById);
 
-router.get("/api/addUsuario", usuarios_controllers.insertUsuario);
+router.post("/api/addUser", users_controllers.insertUser);
 
-router.get("/api/updateUsuario", usuarios_controllers.updateUsuario);
+router.put("/api/updateUser/:id", users_controllers.updateUser);
+
+router.delete("/api/deleteUser/:id", users_controllers.deleteUserByID);
 
 router.get('/', (req, res) => {
     res.status(200).send('server running successfully!');
